@@ -6,6 +6,10 @@ inputs:
     description: 'Who to greet'
     required: true
     default: 'World'
+  food-to-eat:  # id of input
+    description: 'Food to eat'
+    required: true
+    default: 'Hoddeok'
 outputs:
   time: # id of output
     description: 'The time we greeted you'
