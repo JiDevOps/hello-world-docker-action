@@ -1,7 +1,7 @@
 #!/bin/sh -l
 
-echo "Hello $1"
-echo "Let's eat $INPUT_food"
+echo "Hello $INPUT_WHO"
+echo "Let's eat $INPUT_FOOD"
 printenv
 time=$(date)
 echo "::set-output name=time::$time"

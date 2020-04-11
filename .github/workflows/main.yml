@@ -11,7 +11,7 @@ jobs:
       id: hello-world
       uses: JiDevOps/hello-world-docker-action@master
       with:
-        who-to-greet: 'Jonas'
+        who: 'Jonas'
         food: 'Cookie Ice Cream'
     # Use the output from the `hello` step
     - name: Get the output time
