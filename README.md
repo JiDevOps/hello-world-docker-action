@@ -1,12 +1,16 @@
 # Hello world docker action
 
-This action prints "Hello World" or "Hello" + the name of a person to greet to the log.
+This action prints "Hello World" or "Hello" + the name of a person to greet and the food to eat to the log.
 
 ## Inputs
 
-### `who-to-greet`
+### `who`
 
 **Required** The name of the person to greet. Default `"World"`.
+
+### `food`
+
+**Required** The food to eat. Default `"Hoddeok"`.
 
 ## Outputs
 
